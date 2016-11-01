@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="clever"/>
+  <table-filter match-name="usuario"/>
+  <table-filter match-name="endereco"/>
+  <table-filter match-name="venda"/>
+  <table-filter match-name="usuario_perfil"/>
+  <table-filter match-name="fornecedor_perfil"/>
+  <table-filter match-name="produto_perfil"/>
+  <table-filter match-name="cliente_perfil"/>
+  <table-filter match-name="cliente"/>
+  <table-filter match-name="fornecedor"/>
+  <table-filter match-name="vendas_perfil"/>
+  <table-filter match-name="perfil"/>
+  <table-filter match-name="pagamento_emprestimo"/>
+  <table-filter match-name="produto"/>
+  <table-filter match-name="produto_fornecedor"/>
+  <table-filter match-name="relatorio_entrada"/>
+  <table-filter match-name="relatorio_perfil"/>
+  <table-filter match-name="item_venda"/>
+  <table-filter match-name="tipoproduto"/>
+</hibernate-reverse-engineering>

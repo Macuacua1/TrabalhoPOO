@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/clever?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+    <property name="hibernate.show_sql">true</property>
+    <mapping class="Modelo.Endereco"/>
+    <mapping class="Modelo.Perfil"/>
+    <mapping class="Modelo.Usuario"/>
+    <mapping class="Modelo.RelatorioEntrada"/>
+    <mapping class="Modelo.UsuarioPerfil"/>
+    <mapping class="Modelo.RelatorioPerfil"/>
+    <mapping class="Modelo.VendasPerfil"/>
+    <mapping class="Modelo.Cliente"/>
+    <mapping class="Modelo.Tipoproduto"/>
+    <mapping class="Modelo.Produto"/>
+    <mapping class="Modelo.ProdutoPerfil"/>
+    <mapping class="Modelo.Fornecedor"/>
+    <mapping class="Modelo.ProdutoFornecedor"/>
+    <mapping class="Modelo.FornecedorPerfil"/>
+    <mapping class="Modelo.PagamentoEmprestimo"/>
+    <mapping class="Modelo.ClientePerfil"/>
+    <mapping class="Modelo.ItemVenda"/>
+    <mapping class="Modelo.ItemVendaId"/>
+    <mapping class="Modelo.Venda"/>
+  </session-factory>
+</hibernate-configuration>
